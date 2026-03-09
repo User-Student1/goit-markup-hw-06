@@ -1071,6 +1071,11 @@ button {
     transition: border-color var(--transition);
 }
 
+.subscribe-input::placeholder {
+    color: var(--white);
+    opacity: 1;
+}
+
 .subscribe-btn {
     display: inline-flex;
     justify-content: center;
@@ -1119,7 +1124,7 @@ button {
     .footer-wrapper {
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: baseline;
         gap: 24px;
     }
@@ -1148,7 +1153,7 @@ button {
     .subscribe-form {
         flex-direction: row;
         gap: 24px;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .subscribe-input {
